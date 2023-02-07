@@ -54,7 +54,11 @@
       <section class="order_section section">
         <div class="container text_order">
           <h1 class="text_order">Effective Solutions for Your Business</h1>
-          <button class="order_button button_function" type="button">
+          <button
+            class="order_button button_function"
+            type="button"
+            data-modal-open
+          >
             Order Service
           </button>
         </div>
@@ -373,7 +377,7 @@
           <ul class="customers_list list">
             <li class="customers__block_icon">
               <a href="" target="_blank" class="customers_link link">
-                <svg class="customers_icon" width="168" height="88">
+                <svg class="customers_icon" width="104" height="56">
                   <use
                     href="./images/svg/symbol-defs_opti.svg#icon-Client"
                   ></use>
@@ -382,7 +386,7 @@
             </li>
             <li class="customers__block_icon">
               <a href="" target="_blank" class="customers_link link">
-                <svg class="customers_icon" width="168" height="88">
+                <svg class="customers_icon" width="104" height="56">
                   <use
                     href="./images/svg/symbol-defs_opti.svg#icon-Client-2"
                   ></use>
@@ -391,7 +395,7 @@
             </li>
             <li class="customers__block_icon">
               <a href="" target="_blank" class="customers_link link">
-                <svg class="customers_icon" width="168" height="88">
+                <svg class="customers_icon" width="104" height="56">
                   <use
                     href="./images/svg/symbol-defs_opti.svg#icon-Client-3"
                   ></use>
@@ -400,7 +404,7 @@
             </li>
             <li class="customers__block_icon">
               <a href="" target="_blank" class="customers_link link">
-                <svg class="customers_icon" width="168" height="88">
+                <svg class="customers_icon" width="104" height="56">
                   <use
                     href="./images/svg/symbol-defs_opti.svg#icon-Client-4"
                   ></use>
@@ -409,7 +413,7 @@
             </li>
             <li class="customers__block_icon">
               <a href="" target="_blank" class="customers_link link">
-                <svg class="customers_icon" width="168" height="88">
+                <svg class="customers_icon" width="104" height="56">
                   <use
                     href="./images/svg/symbol-defs_opti.svg#icon-Client-5"
                   ></use>
@@ -418,7 +422,7 @@
             </li>
             <li class="customers__block_icon">
               <a href="" target="_blank" class="customers_link link">
-                <svg class="customers_icon" width="168" height="88">
+                <svg class="customers_icon" width="104" height="56">
                   <use
                     href="./images/svg/symbol-defs_opti.svg#icon-Client-6"
                   ></use>
@@ -485,5 +489,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-btn-close" data-modal-close>
+          <svg class="modal-close-icon" widht="8px" height="8px">
+            <use href="./images/svg/symbol-defs_opti.svg#icon-vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./JS/modal.js"></script>
   </body>
 </html>
